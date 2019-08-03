@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyFragment</string>
+    <string name="age">21岁</string>
+</resources>

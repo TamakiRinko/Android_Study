@@ -3,6 +3,6 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="splashBackgroundColor">#5C15A5</color>
-    <color name="Yello">#F2FF3A</color>
+    <color name="red">#F44336</color>
+    <color name="white">#ffffff</color>
 </resources>
