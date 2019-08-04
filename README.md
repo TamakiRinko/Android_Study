@@ -6,5 +6,14 @@
 
 ### **一. Android开发, Android Studio, Android微专业 学习进度：**
 
-* 2019/8/2：`P14`，自定义控件基础入门(1)完毕。本节讲解如何View的工作原理，并依据简单按钮需求实例讲解如何通过继承View来实现自定义控件。代码：**Customize_Control**。
-* 2019/8/3：`P15，16，17`，自定义控件完毕，完善了昨天的红色按钮实例，并学习了如何自定义视图属性，同时学习dp/sp与px间的转化；Fragment初步，学习了Fragment的构造方法，了解了通过 **layout资源文件中直接加入** 和 **代码调用** 两种方式使用Fragment。代码：**Customize_Control，MyFragment**。
+* 2019/8/2：`P14`。  
+自定义控件基础入门(1)完毕。学习View的工作原理，并依据简单按钮需求实例讲解如何通过继承View来实现自定义控件。  
+代码：**Customize_Control**。
+* 2019/8/3：`P15，16，17`。  
+自定义控件完毕，完善了昨天的红色按钮实例，并学习了如何自定义视图属性，同时学习dp/sp与px间的转化；  
+Fragment初步，学习了Fragment的构造方法，了解了通过 **layout资源文件中直接加入** 和 **代码调用** 两种方式使用Fragment。  
+代码：**Customize_Control，MyFragment**。
+* 2019/8/4：`P18，P19`。  
+Fragment完毕，学习Fragment的生命周期，Fragment静态初始化方式newInstance以及Bundle的使用。**余留疑问**：findFragmentByTag()函数总是返回null；  
+Handler初步，使用handler构造了一个计时器。学习了静态内部类的使用及内存泄漏方面的问题。  
+代码：**MyFragment，Handler**。
