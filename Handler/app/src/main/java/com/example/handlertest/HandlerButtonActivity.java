@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.net.VpnService;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.os.Message;
 import android.widget.TextView;
 
@@ -62,6 +63,30 @@ public class HandlerButtonActivity extends Activity {
         message1.obj = 10;
         testHandler.sendMessageDelayed(message1, 1000);
 //        handler.sendMessageDelayed(message, 1200);
+
+        new Thread(new Runnable() {     //并发进行，刚开始就置为asdasd
+            @Override
+            public void run() {
+                textView.setText("asdasd");
+            }
+        }).start();
+
+
+        testHandler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                /**
+                 * Causes the Runnable r to be added to the message queue, to be run
+                 * after the specified amount of time elapses.
+                 * The runnable will be run on the thread to which this handler
+                 * is attached.
+                 */
+
+                //在一秒后要做的事写在这里，被放入消息队列中，到时间就执行
+                //sendMessage是将信号放入消息队列，到时间发消息，在handleMessage中执行
+            }
+        }, 1000);
+
     }
 
     public void init(){
