@@ -67,14 +67,14 @@ public class MusicButtonActivity extends Activity implements View.OnClickListene
              */
             case R.id.starts:
                 startService(intent);       //Started模式不要下一句
-                bindService(intent, serviceConnection, BIND_AUTO_CREATE);       //Bound模式
+//                bindService(intent, serviceConnection, BIND_AUTO_CREATE);       //Bound模式
                 break;
 
             /**
              * 结束服务，stopService
              */
             case R.id.stops:
-                unbindService(serviceConnection);   //Bound，关闭连接
+//                unbindService(serviceConnection);   //Bound，关闭连接
                 stopService(intent);      //Started模式不要上一句
                 break;
 
