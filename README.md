@@ -4,7 +4,7 @@
 
 ## **过程**：7月中旬学习：[Android开发基础教程](https://space.bilibili.com/137860026/)。7月底开始学习：[Android开发, Android Studio, Android微专业](https://www.bilibili.com/video/av50720825)，在此感谢老师的讲解！
 
-### **一. Android开发, Android Studio, Android微专业 学习进度：**
+### **第一部分入门篇 ：Android视图入门 学习进度：**
 
 * 2019/8/2：`P14`  
 自定义控件基础入门(1)完毕。学习View的工作原理，并依据简单按钮需求实例讲解如何通过继承View来实现自定义控件。  
@@ -29,3 +29,9 @@ WebView初步，学习使用WebView控件来加载线上URL和本地html文件�
 WebView完毕，学习如何回退值上一个页面，如何使用历史记录以及通过setWebChromeClient方法完成更多的类的结构和常用设置。  
 Wdiget完毕，利用桌面小插件实例学习Widget的实现及其相对独立的各类函数（如点击事件）。  
 代码：**WebView，Widget**
+
+### **第二部分进阶篇 Android网络与数据存储 学习进度：**
+
+* 2019/8/8：`P1，P2`  
+SharedPreferences学习完毕，学习如何使用SharedPreferences将内存中的数据永久保存到磁盘上，并在后续取出使用。学习如何将ShraedPreferences中的方法包装成方法类用以调用。  
+**代码**：SharedPreferences
