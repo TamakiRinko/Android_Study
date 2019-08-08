@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SharedPreference</string>
+    <string name="phone_book">电话本</string>
+    <string name="age">21岁</string>
+    <string name="list_view_button">电话本</string>
+    <string name="data_counts">电话簿条数：</string>
+    <string name="confirm">确定</string>
+</resources>
