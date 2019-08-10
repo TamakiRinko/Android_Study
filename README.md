@@ -39,3 +39,6 @@ SharedPreferences学习完毕，学习如何使用SharedPreferences将内存中�
 文件管理完毕，学习往Internal Storage中写入文件，并读取出来使用，学习如何读取项目assets，res等各目录下的文件，如何操作各种类型的文件。  
 SQLite初步，学习如何新建一个表格及向内插入数据，并在Android中查看database文件。  
 代码：**FileControl，SQLiteTest**
+* 2019/8/10：`P6，P7`  
+SQLite完毕，学习SQLite中的删除，查询，更新操作，以及利用事务和对象映射关系ORM进行数据库存储效率的优化。  
+代码：**SQLiteTest**
