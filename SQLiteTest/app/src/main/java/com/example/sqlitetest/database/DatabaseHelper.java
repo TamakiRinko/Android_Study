@@ -3,25 +3,28 @@ package com.example.sqlitetest.database;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.icu.text.PluralRules;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 
 
-    public static final String DATABASE_NAME = "user1";
-    public static final String USERNAME = "username1";
-    public static final String PASSWORD = "password1";
+    public static final String USERTABLE_NAME = "user";
+    public static final String USERNAME = "username";
+    public static final String AGE = "age";
+    public static final String DATABASE_NAME = "mytest.db";
+    public static final int VERSION = 1;
 
     /**
      * 创建一个数据库
      * @param context
      */
     public DatabaseHelper(Context context) {
-        super(context, "test8.db", null, 1);
+        super(context, DATABASE_NAME, null, VERSION);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("create table " + DATABASE_NAME + "(" + USERNAME + " varchar(20) not null, " + PASSWORD + " varchar(60) not null);");
+        db.execSQL("create table " + USERTABLE_NAME + "(" + USERNAME + " varchar(20) not null, " + AGE + " varchar(60) not null);");
     }
 
     @Override
